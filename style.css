@@ -315,8 +315,19 @@ align-items:center;
 
 text-align:center;
 
-background:url("kr.jpg");
+.hero{
 
+    background:url("kr.png");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    overflow:hidden;
+
+}
 background-size:cover;
 
 background-position:center;
