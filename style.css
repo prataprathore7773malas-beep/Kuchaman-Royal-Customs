@@ -1422,8 +1422,7 @@ transform:translateY(0);
 
     position:relative;
 
-    background:url("kr.jpg");
-
+ background:url("kr.png");
     background-size:cover;
 
     background-position:center;
