@@ -345,57 +345,9 @@ rgba(0,0,0,.92)
 
 
 
-
-/*====================================================
-            SMOKE EFFECT
-====================================================*/
-
 .smoke{
-
-position:absolute;
-
-left:-10%;
-
-bottom:-5%;
-
-width:130%;
-
-height:100%;
-
-background:url("https://i.imgur.com/Mm7wY9B.png");
-
-background-size:cover;
-
-opacity:.18;
-
-animation:smokeMove 35s linear infinite;
-
-pointer-events:none;
-
+display:none;
 }
-
-@keyframes smokeMove{
-
-0%{
-
-transform:translateX(-8%) scale(1);
-
-}
-
-50%{
-
-transform:translateX(8%) scale(1.1);
-
-}
-
-100%{
-
-transform:translateX(-8%) scale(1);
-
-}
-
-}
-
 
 
 
