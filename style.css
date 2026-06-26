@@ -300,42 +300,20 @@ color:#fff;
 /*====================================================
             HERO
 ====================================================*/
-
 .hero{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
-position:relative;
+    background-image: url("kr.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-height:100vh;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-text-align:center;
-
-.hero{
-
-    background:url("kr.png");
-
-    background-size:cover;
-
-    background-position:center;
-
-    background-repeat:no-repeat;
-
-    overflow:hidden;
-
-}
-background-size:cover;
-
-background-position:center;
-
-background-repeat:no-repeat;
-
-overflow:hidden;
-
+    overflow: hidden;
 }
 
 .hero-overlay{
